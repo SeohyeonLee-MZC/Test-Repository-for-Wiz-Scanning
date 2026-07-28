@@ -22,4 +22,4 @@ jobs:
           WIZ_CLIENT_SECRET: ${{ secrets.WIZ_CLIENT_SECRET }}
 
       - name: Run Wiz IaC Scan
-        run: ./wizcli iac scan --path . --policy "YOUR_POLICY_NAME"
+        run: ./wizcli iac scan --path .
