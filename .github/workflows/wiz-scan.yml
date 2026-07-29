@@ -38,7 +38,7 @@ jobs:
         run: |
           ./wizcli iac scan \
             --path . \
-            --policy "Default IaC policy" \
+            --policy "Default IaC policy (Block ver.)" \
             --format sarif \
             2>/dev/null > wiz-iac-results.sarif
         env:
